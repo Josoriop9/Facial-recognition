@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css" />
+
+    <title>Facial Recognition</title>
+    <style>
+        .container{
+            margin: 0%; padding: 0%; width: auto; height: auto; background: rgb(34,205,205);
+            background: linear-gradient(90deg, rgba(34,205,205,1) 0%, rgba(107,84,124,1) 48%, rgba(32,49,64,1) 100%);
+            text-align: center; color: white; font-weight: 100;
+        }
+
+    </style>
+</head>
+<body class="container"> 
+    <h1>Facial Recognition App</h1>
+    <img src="{{url_for('video_feed')}}"> 
+</body>
+</html>
